@@ -1,0 +1,14 @@
+{
+  "name": "retention-science-integration-60f756",
+  "proxy": {
+    "command": "npm start"
+  },
+  "environment": {},
+  "lambda": {
+    "memory": 1024
+  },
+  "hooks": {
+    "build": "npm run build",
+    "clean": "rm -rf dist/"
+  }
+}
